@@ -1,7 +1,33 @@
-.DS_Store
+# Python
 *.pyc
-*.egg-info
+__pycache__/
+*.pyo
+*.pyd
+
+# Environment
+env/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Frappe
+logs/
+*.log
+*.sqlite3
+*.db
+node_modules/
+*.pot
+*.mo
+*.pyc
+*.pyo
+*.pyd
 *.swp
-tags
-node_modules
-__pycache__
+*.swo
+*.bak
+*.orig
+
+# Ignore IDE configs
+.vscode/
+.idea/
