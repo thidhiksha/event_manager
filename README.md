@@ -39,3 +39,37 @@ This app can use GitHub Actions for CI. The following workflows are configured:
 ### License
 
 mit
+
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Events](#events)
+  - [Attendees](#attendees)
+  - [Ticket Sales](#ticket-sales)
+  - [CSV Import](#csv-import)
+- [Folder Structure](#folder-structure)
+- [Contributing](#contributing)
+
+## Features
+
+- **Event Management**
+  - Create, update, and delete events
+  - Track event details: title, description, date, location, capacity
+  - Search and filter events by title or date
+
+- **Attendee Management**
+  - Register attendees for events
+  - Update attendee details
+  - View list of attendees per event
+  - Ensure event capacity is not exceeded
+
+- **Ticket Sales**
+  - Track tickets sold and tickets available
+  - Automatically calculate remaining capacity
+  - Generate reports: total tickets sold, revenue per event
+
+- **CSV Import**
+  - Upload CSV files to bulk create events
+  - Fields supported: Event Title, Description, Event Date, Location, Capacity
